@@ -10,3 +10,8 @@ text = 'hello world python world'
 # print(text.rstrip("t.- "))
 # print(text.strip("t.- "))
 
+# print("hello".center(12, "-"))
+print(bin(15))
+
+
+
