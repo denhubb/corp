@@ -1,0 +1,23 @@
+TRIGGER_DATE=2024-02-04 19:28:00
+PATCH=/mnt/d/Download/hello_test.txt
+BASH_CONDITION=Y
+
+[BASH_COMMANDS]
+echo test
+ls -lha
+
+
+
+
+
+pwd
+
+
+
+
+[ACTIONS]
+d fld_025%%'234' && fld_012=='2319342'
+c [addfle]
+
+a fld_122
+d flda_23894 && (fdj='[1231241]' || fjd%%fjdskaf)
