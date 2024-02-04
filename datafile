@@ -1,5 +1,5 @@
 TRIGGER_DATE=2024-02-04 19:28:00
-PATCH=/mnt/d/Download/hello_test.txt
+PATH=/mnt/d/Download/hello_test.txt
 BASH_CONDITION=Y
 
 [BASH_COMMANDS]
