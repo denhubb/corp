@@ -14,8 +14,8 @@ def get_data():
     for i in all_data:
         if "TRIGGER_DATE=" in i:
             information_dict["trigger_date"] = i[13:].strip()
-        elif "PATCH=" in i:
-            information_dict["file_path"] = i[6:].strip()
+        elif "PATH=" in i:
+            information_dict["file_path"] = i[5:].strip()
         elif "BASH_CONDITION=" in i:
             bash_condition = i[15:].strip()
         elif "BASH_COMMANDS" in i and bash_condition == "Y":
